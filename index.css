@@ -1,0 +1,95 @@
+.row input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn-danger{
+    margin-top: 5px;
+}
+hr{
+    width: 28px;
+    border: 1.5px solid;
+    color: #e2e213;
+    float: left;
+    margin: 5px;
+}
+ul{
+    display: flex;
+    padding: 0;
+}
+span i{
+    padding-right:6px; 
+}
+/* .horizontal{
+    width: 28px;
+    border: 1px solid;
+    color: #e2e213;
+    float: left;
+} */
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.icons{
+    display: flex;
+}
+ul li a i{
+    padding-right: 20px !important;
+    color: black;
+}
+ul li{
+    list-style-type: none;
+}
+.contact-us{
+    background-color: #ccc;
+}
+.wrapper{
+    margin: 0 150px;
+}
+.col-md-4{
+    width: 32%;
+
+}
+
+.image1{
+    border: 1px solid black;
+    border-right: 1px solid black !important;
+    padding-right: 0px;
+    padding-left: 0px; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.wrapper h2{
+    text-align: center;
+    position: relative;
+}
+.hori{
+    width: 28px;
+    border: 1.5px solid;
+    color: #e2e213;
+    float: none;
+    margin: 5px;
+    position: absolute;
+    left: 635px;
+    top: 14px;
+}
+/* .row{
+    margin-left: 0;
+    margin-right: 0;
+} */
+.brand-content{
+    margin: 35px 0px;
+}
+.construct{
+    background-color: #ccc;
+}
+.construct1{
+    width: 100%;
+}
+.col-md-8{
+    width: calc(100%-16.66%)!important;
+}
