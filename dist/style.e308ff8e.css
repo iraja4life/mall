@@ -1,0 +1,381 @@
+.row input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn{
+    margin-top: 5px;
+   background-color:#b71f4a;
+   color: white;
+}
+hr{
+    width: 28px;
+    border: 1.5px solid;
+    color: #fec155;
+    
+    margin: 5px;
+}
+ul{
+    display: flex;
+    padding: 0;
+}
+span i{
+    padding-right:6px; 
+}
+/* .horizontal{
+    width: 28px;
+    border: 1px solid;
+    color: #e2e213;
+    float: left;
+} */
+h2{
+    font-size: 38px;
+    font-weight: 700;
+}
+.icons{
+    display: flex;
+}
+ul li a i{
+    padding-right: 20px !important;
+    color: #303644;
+}
+ul li{
+    list-style-type: none;
+}
+.contact-us{
+    background-color:white;
+}
+.wrapper{
+    margin: 0 150px;
+}
+.col-md-4{
+    width: 32%;
+
+}
+
+.brands-image{
+    border: 1px solid black;
+        text-align: center;
+        
+}
+.brands{
+    margin-bottom: 5%;
+}
+.brand-content{
+    padding-top: 2%;
+}
+.brand-content + .row{
+    margin-top: 5%;
+}
+.wrapper h2{
+    text-align: center;
+    position: relative;
+}
+.hori{
+    width: 28px;
+    border: 1.5px solid;
+    color: #e2e213;
+    float: none;
+    margin: 5px;
+    position: absolute;
+    left: 635px;
+    
+}
+.flex-nav-next a::before{
+        background-image:url(right-chevron.ed17654f.png)!important; 
+        height: 100%;
+        width: 100%;
+        content: '' !important;
+        background-size:contain; 
+        background-color: white;
+        
+    
+}
+ .flex-nav-prev a::before{
+    background-image:url(right-chevron2.b3b25fcd.png)!important; 
+    height: 100%;
+    width: 100%;
+    content: '' !important;
+    background-size:contain;
+    color: white; 
+    background-color: white;
+
+} 
+/* .row{
+    margin-left: 0;
+    margin-right: 0;
+} */
+
+.about-us .col-md-6{
+    padding-left: 0px !important;
+    padding-right:0px !important;
+}
+
+.col-md-6 input{
+    background-color: #ccc;
+}
+.footer-list li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+
+
+  <!-- header -->
+  *{
+	margin: 0px;
+}
+.nav-menu-ul li{
+	list-style-type: none;
+   padding: 15px;
+  font-size: 15px;   
+  background-color: #e2e3e4;  
+}
+.nav-menu-ul{
+	display: flex;
+	margin-bottom: 0px !important;
+}
+.menu{
+	/* display: inline-block; */
+	display: flex;
+    
+    /* border: 1px solid #ccc;
+    border-radius: 3px;   */
+    justify-content: flex-end;
+}
+.logo img{	
+	height: 40px;
+}
+.logo{
+	width: 21%;
+	padding: 15px 10px 0 10px;
+} 
+header{
+	background-color:  white; 
+}
+.wrapper{
+	margin: 0px 100px;
+}
+.nav-menu-ul li a{
+	text-decoration:none; 
+	color: black;
+}
+.search-container{
+    position: relative;
+    padding: 20px;
+    background-color: #e2e3e4;
+}
+.search-container:before{
+    content: "\f00e";
+    
+    text-decoration: inherit;
+    color: #000;
+    font-size: 18px;
+    top: 13px;
+    left: 14px;
+    position: absolute;
+   
+}
+.head-content{
+    padding: 0 20px;
+}
+.about-us .abt-content{
+    background-color: #efefef;
+    padding: 20px ! important;
+}
+.about-image{
+    display: flex;
+}
+.about-image i img{
+    width: 130px;
+    padding: 10px;
+}
+.about-image{
+    border-top:1.5px solid; 
+}
+.abt-content2{
+    margin-top:45px; 
+}
+.aboutus-image{
+    width: 100%;
+    height: 386px;
+    background-size: cover;
+    background-position: center;
+}
+/* .aboutus-image img{
+    width: 100%;
+    height: auto;
+    
+
+} */
+.about-us{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.abt-image{
+    padding-left: 0px !important;
+    padding-right:0px !important;
+}
+.footer-list{
+
+}
+footer{
+    display: flex;
+    background-color:#303644;
+}
+.footer-content{
+    padding: 15px;
+    margin-left: 30px;
+    color: white;
+    font-size:15px; 
+}
+.footer-list{
+    margin-left: 135px;
+    color: white;
+    font-size: 15px;
+}
+p{
+    font-size: 15px;
+}
+.carousel-control {
+    font-size: 40px;
+    position: absolute;
+    top: 37%;
+
+}
+.overview-head{
+    text-align: center;
+
+}
+.hori1{
+    margin-left: 50%;
+
+}
+.overview-head{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+.overview-btn{
+    background-color: #b71f4a;
+    color: white;
+    padding: 2px 14px;
+    margin-top: 30px;
+}
+.overview-hori{
+    width: 83px;
+    border: 1.5px solid;
+    color: white;
+    margin: 0 97px;
+}
+.overview-branch{
+  color: white;
+  height: 400px !important;
+}
+.overview-content{
+    color: white;
+    height: 200px;
+}
+.overview-text{
+position: relative;
+float: left;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.overview-hover{
+    display: none;
+}
+.overview-content:hover .overview-hover{
+display: block;
+}
+.overview-content:hover .overview-text{
+    display: none;
+
+}
+.overview-hover .fa-plus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    display: block;
+    
+}
+.overview-content:hover{
+    background-color: red !important;
+}
+.overview-content{
+    background-image: url(china1.38911670.png);
+    
+}
+
+
+.overview-branch:hover .overview-hover{
+    display: block;
+    }
+    .overview-branch:hover .overview-text{
+        display: none;
+    
+    }
+    .overview-branch:hover{
+        background-color: red !important;
+    }
+
+
+
+.overview-branch{
+    background-image: url(china1.38911670.png);
+}
+.flexslider .slides li{
+    display: block !important;
+}
+.construct-content h2{
+    text-align: center;
+}
+.construct-content hr{
+    width: 28px;
+    border: 1.5px solid;
+    color: #fec155;
+    margin-left: 48%;
+}
+ol.flex-control-nav{
+    display: none !important;
+}
+.construct{
+    background-color: #efefef;
+    height: 550px;
+}
+.construct-wrap{
+    margin: 6px;
+    padding-top: 4%;
+}
+.construct-content{
+    padding-top: 1%;
+}
+.flexslider{
+    border: 0 !important;
+}
+.slider-left {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+} 
+.slider-right {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+} 
+.flex-nav-prev a:before{
+    background-image: url()
+
+}
+
+
+
