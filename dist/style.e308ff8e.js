@@ -176,7 +176,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./image/right-chevron.png":[["right-chevron.ed17654f.png","image/right-chevron.png"],"image/right-chevron.png"],"./image/right-chevron2.png":[["right-chevron2.b3b25fcd.png","image/right-chevron2.png"],"image/right-chevron2.png"],"./image/china1.png":[["china1.38911670.png","image/china1.png"],"image/china1.png"],"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./image/right-chevron.png":[["right-chevron.ed17654f.png","image/right-chevron.png"],"image/right-chevron.png"],"./image/right-chevron2.png":[["right-chevron2.b3b25fcd.png","image/right-chevron2.png"],"image/right-chevron2.png"],"./image/download1.jpeg":[["download1.767daae5.jpeg","image/download1.jpeg"],"image/download1.jpeg"],"./image/china1.png":[["china1.38911670.png","image/china1.png"],"image/china1.png"],"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -203,7 +203,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40811" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46823" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

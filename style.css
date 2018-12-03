@@ -16,7 +16,6 @@ hr{
     width: 28px;
     border: 1.5px solid;
     color: #fec155;
-    
     margin: 5px;
 }
 ul{
@@ -26,12 +25,6 @@ ul{
 span i{
     padding-right:6px; 
 }
-/* .horizontal{
-    width: 28px;
-    border: 1px solid;
-    color: #e2e213;
-    float: left;
-} */
 h2{
     font-size: 38px;
     font-weight: 700;
@@ -52,15 +45,9 @@ ul li{
 .wrapper{
     margin: 0 150px;
 }
-.col-md-4{
-    width: 32%;
-
-}
-
 .brands-image{
     border: 1px solid black;
-        text-align: center;
-        
+        text-align: center;    
 }
 .brands{
     margin-bottom: 5%;
@@ -83,7 +70,6 @@ ul li{
     margin: 5px;
     position: absolute;
     left: 635px;
-    
 }
 .flex-nav-next a::before{
         background-image:url(image/right-chevron.png)!important; 
@@ -91,9 +77,7 @@ ul li{
         width: 100%;
         content: '' !important;
         background-size:contain; 
-        background-color: white;
-        
-    
+        background-color: white; 
 }
  .flex-nav-prev a::before{
     background-image:url(image/right-chevron2.png)!important; 
@@ -105,16 +89,10 @@ ul li{
     background-color: white;
 
 } 
-/* .row{
-    margin-left: 0;
-    margin-right: 0;
-} */
-
 .about-us .col-md-6{
     padding-left: 0px !important;
     padding-right:0px !important;
 }
-
 .col-md-6 input{
     background-color: #ccc;
 }
@@ -122,11 +100,7 @@ ul li{
     list-style-type: none;
     padding: 15px;
 }
-
-
-
-  <!-- header -->
-  *{
+*{
 	margin: 0px;
 }
 .nav-menu-ul li{
@@ -140,11 +114,7 @@ ul li{
 	margin-bottom: 0px !important;
 }
 .menu{
-	/* display: inline-block; */
 	display: flex;
-    
-    /* border: 1px solid #ccc;
-    border-radius: 3px;   */
     justify-content: flex-end;
 }
 .logo img{	
@@ -171,14 +141,12 @@ header{
 }
 .search-container:before{
     content: "\f00e";
-    
     text-decoration: inherit;
     color: #000;
     font-size: 18px;
     top: 13px;
     left: 14px;
-    position: absolute;
-   
+    position: absolute; 
 }
 .head-content{
     padding: 0 20px;
@@ -203,32 +171,20 @@ header{
 .aboutus-image{
     width: 100%;
     height: 386px;
+    background:url('./image/download1.jpeg') no-repeat center;
     background-size: cover;
-    background-position: center;
 }
-/* .aboutus-image img{
-    width: 100%;
-    height: auto;
-    
-
-} */
 .about-us{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.abt-image{
-    padding-left: 0px !important;
-    padding-right:0px !important;
-}
-.footer-list{
 
-}
 footer{
     display: flex;
     background-color:#303644;
 }
 .footer-content{
-    padding: 15px;
+    padding-top:23px;
     margin-left: 30px;
     color: white;
     font-size:15px; 
@@ -237,23 +193,21 @@ footer{
     margin-left: 135px;
     color: white;
     font-size: 15px;
+    padding-top:7px;
 }
-p{
+p  {
     font-size: 15px;
 }
 .carousel-control {
     font-size: 40px;
     position: absolute;
     top: 37%;
-
 }
 .overview-head{
     text-align: center;
-
 }
 .hori1{
     margin-left: 50%;
-
 }
 .overview-head{
     margin-top: 50px;
@@ -274,7 +228,8 @@ p{
 }
 .overview-branch{
   color: white;
-  height: 400px !important;
+  height: 400px;
+  padding: 0 !important;
 }
 .overview-content{
     color: white;
@@ -295,7 +250,6 @@ display: block;
 }
 .overview-content:hover .overview-text{
     display: none;
-
 }
 .overview-hover .fa-plus{
     position: absolute;
@@ -303,31 +257,28 @@ display: block;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 50px;
-    display: block;
-    
+    display: block;  
 }
 .overview-content:hover{
     background-color: red !important;
 }
 .overview-content{
     background-image: url(image/china1.png);
-    
+
+
 }
 
 
 .overview-branch:hover .overview-hover{
-    display: block;
-    }
-    .overview-branch:hover .overview-text{
-        display: none;
+display: block;
+}
+.overview-branch:hover .overview-text{
+     display: none;
     
     }
     .overview-branch:hover{
         background-color: red !important;
     }
-
-
-
 .overview-branch{
     background-image: url(image/china1.png);
 }
@@ -359,6 +310,7 @@ ol.flex-control-nav{
 }
 .flexslider{
     border: 0 !important;
+   
 }
 .slider-left {
     font-size: 50px;
@@ -376,6 +328,107 @@ ol.flex-control-nav{
     background-image: url()
 
 }
+.brands-content1{
+ margin-bottom: 10px !important;
+}
+@media only screen and (max-width: 768px) {
+.aboutus-image{
+    height: 183px !important;
 
+}
+.abt-content h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.abt-content p{
+    font-size: 13px;
+}
+.about-image i img {
+    width: 84px;
+}
+.overview-head h2{
+    font-size: 22px;
+    font-weight: 500;
+}
+.overview-head hr{
+    width: 16px;
+}
+.overview-btn{
+    padding: 1px 5px;
+    margin-top: 15px;
 
-
+}
+.about-row{
+    display: flex;
+}
+.overview-branch{
+    height: 330px;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 10px;
+}
+.overview-content{
+    margin-bottom: 10px;
+}
+.wrapper{
+    margin: 0;
+    position: relative;
+}
+.brands-image{
+    margin-bottom: 10px;
+}
+.brand-content{
+    font-size: 25px;
+    font-weight: 600;
+}
+.brands-content1{
+    margin-bottom: 0!important;
+}
+hr.hori{
+    left:44%;
+    top: -1%;
+    margin: 10px 0;
+}
+.construct{
+    height: auto;
+}
+.construct-content{
+    padding-bottom: 15px;
+}
+.construct-content h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+.construct-content hr{
+    border:1px solid;
+    width:17px;
+}
+.flex-next,.flex-prev{
+    width: 30px!important;
+    height: 30px!important;
+}
+.contact-us h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.contact-us hr{
+    width:23px;
+    border: 1px solid;
+}
+.contact-us p{
+    font-size: 13px;
+}
+.input-field label{
+    margin-bottom: 0 !important;
+}
+.input-field input{
+padding: 8px 12px;
+margin: 4px 0;
+}
+.input-field > .tarea{
+    height: 150px!important;
+}
+h4{
+ font-size: 1.2rem;
+}
+}
