@@ -4,3 +4,8 @@ $(document).ready(function() {
       directionNav:true
     });
   });
+
+  $("#toggle").click(function() {
+    $(this).toggleClass("on");
+    $("#menu").slideToggle();
+  });

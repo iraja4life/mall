@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,17 +11,12 @@
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="stylesheet" href="./flexslider.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.1/flexslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.1/jquery.flexslider.min.js"></script>
-
-</head>
+   
 
 <body>
     <!--header-->
@@ -30,11 +26,11 @@
                 <div class="logo">
                     <a href="#"><img src="image/image1.png" alt=""></a>
                 </div>
-                <input class="menu-btn" type="checkbox" id="menu-btn" />
-                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-                <div class="menu">
-                    <nav class="nav-menu">
-                        <ul class="nav-menu-ul">
+                <!-- <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label> -->
+                <div class="menu" id="menu">
+                    <nav class="nav-menu" >
+                        <ul class="nav-menu-ul" >
                             <li><a href="">HOME</a></li>
                             <li><a href="">ABOUT</a></li>
                             <li><a href="">OVERVIEW</a></li>
@@ -42,6 +38,11 @@
                             <li><a href="">CONSTRUCTION</a></li>
                             <li><a href="">CONTACT</a></li>
                             <div class="search-container">
+                            </div>
+                            <div id="toggle">
+                                    <div class="one"></div>
+                                    <div class="two"></div>
+                                    <div class="three"></div>
                             </div>
                         </ul>
                     </nav>
@@ -76,8 +77,15 @@
             <i class="fa fa-angle-right fa-3" aria-hidden="true"></i>
           
            </div>  -->
+
+    <!--aboutus-->
+
     <section>
         <div class="container about-us">
+            <div class="abt-head">
+                    <hr>
+                    <h2>About Us</h2>
+            </div>
             <div class="row ">
                 <div class="col-md-6 col-sm-12">
                     <div class="aboutus-image">
@@ -335,13 +343,14 @@
                         <button class="btn ">Send</button>
                         </nav>
                     </div>
+                    
                     <div class="col-md-5 col-sm-12">
                         <div class="row">
                             <div class="col-md-6 col-sm-12 site-info">
                                 <hr>
                                 <h4>Address</h4>
                                 <div class="icons">
-                                    <span><i class="fa fa-map-marker"></i></span>
+                                    <span><i class="fa fa-map-marker"></i></span>        
                                     <p>chinchwad Gaon,Chincwad pimpri-chinchwad,pune maharashtra 411033</p>
                                 </div>
                             </div>
@@ -377,7 +386,7 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 site-info">
                                 <hr>
                                 <h4>Socials</h4>
                                 <ul>

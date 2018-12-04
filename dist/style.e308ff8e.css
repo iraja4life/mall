@@ -254,6 +254,7 @@ display: block;
 .overview-hover .fa-plus{
     position: absolute;
     top: 50%;
+
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 50px;
@@ -264,8 +265,6 @@ display: block;
 }
 .overview-content{
     background-image: url(china1.38911670.png);
-
-
 }
 
 
@@ -331,7 +330,12 @@ ol.flex-control-nav{
 .brands-content1{
  margin-bottom: 10px !important;
 }
-@media only screen and (max-width: 768px) {
+
+.abt-head{
+    display: none;
+}  
+
+@media only screen and (max-width: 767px) {
 .aboutus-image{
     height: 183px !important;
 
@@ -431,4 +435,137 @@ margin: 4px 0;
 h4{
  font-size: 1.2rem;
 }
+.nav-menu{
+    display: none;
+}
+.footer-list{
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    
+}
+footer{
+    display: block;
+}
+.construct-content{
+    height: 208.75px;
+}
+.overview-btn{
+    margin-top: 0px;
+}
+.flexslider{
+    margin-bottom:30px !important;
+}
+.site-info hr{
+    display: none !important;
+}
+.site-info h4{
+    display: none !important;
+}
+.construct{
+    height: 210px !important;
+}
+.footer-content{
+    margin-left: 0px;
+}
+.footer-list li{
+    padding: 10px !important;
+}
+form{
+    padding-bottom: 10px;
+}
+}
+
+@media only screen and (max-width: 1024px){  
+    .aboutus-image{
+        height: 386px !important;
+    }
+    .contact-us p{
+        font-size: 10px;
+    }
+    .brands-image img{
+        width: 100%;
+    }
+    .about-image i img {
+        width: 100%;
+    }
+    .footer-list{
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+    footer{
+        display: block;
+    }
+    .footer-content{
+        text-align: center;
+        
+    }
+    .abt-head h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .abt-content hr{
+        display: none;
+    }
+    .abt-content h2{
+        display: none;
+    }
+    .about-us{
+        background-color: #efefef;
+        padding-top: 1%;
+    }
+    .abt-head hr{
+        width: 16px;
+    }
+    .overview-content{
+        height: 330px;
+        background-position: center;
+    }
+    
+    .btn{
+        padding: 2px 7px;
+    }
+    .icons {
+        margin-top: 3%;
+    }
+    .overview-head{
+        margin-top: -20px;
+        margin-bottom: 20px;
+
+    }
+    .flexslider{
+        margin-bottom: 20px;
+    }
+    .brands{
+        margin-bottom: 30px;
+    }
+    .brand-content + .row{
+        margin-top: 0;
+    }
+    .construct-content{
+        height: 347.67188px;
+    }
+    .site-info h4{
+        display: block;
+    }
+    .site-info hr{
+        display: block;
+    }
+    .construct{
+        height: 400px;
+    }
+     /* .wrapper{
+        margin: 0;
+    } */
+    .wrapper .hori{
+        left: 356px !important;
+    }
+    button{
+    padding: 6px 15px;
+    font-size: 20px;
+    }
+    .abt-head{
+    display: block;
+    }
 }
